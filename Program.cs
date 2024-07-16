@@ -52,7 +52,7 @@ public class Program
 				{
 					Console.SetCursorPosition(2, 4);
 					Console.ForegroundColor = ConsoleColor.Cyan;
-					Console.WriteLine("dobra nara spierdalam");
+					Console.WriteLine("ggez");
 					Console.ResetColor();
 					break; 
 				}
@@ -71,7 +71,7 @@ public class Program
 				if ((distanceX == 1 && distanceY == 0) || (distanceX == 0 && distanceY == 1))
 				{
 					Console.SetCursorPosition(2, 0);
-					Console.WriteLine("o kurwa diabeł");
+					Console.WriteLine("o kruci diabeł");
 					Console.ReadKey(true);
 				}
 				else
@@ -97,7 +97,7 @@ public class Program
                 {
                     coinCollected = true;
                     Console.SetCursorPosition(2, 0);
-                    Console.WriteLine("masz tu śrubke wkręć se w dupke");
+                    Console.WriteLine("fajne biere");
 					Console.ForegroundColor = ConsoleColor.Green;
                     map.RedrawCell(key.Position);
 					map.DrawSomethingAt(hero.Visuals, key.Position);
@@ -108,7 +108,7 @@ public class Program
 				if ((distanceX == 1 && distanceY == 0) || (distanceX == 0 && distanceY == 1))
 				{
 					Console.SetCursorPosition(2, 1);
-					Console.WriteLine("jak ja ciebie jebne");
+					Console.WriteLine("jak ja ciebie chlasne");
 				}
 				else
 				{
@@ -119,7 +119,7 @@ public class Program
 				if ((distanceX == 0 && distanceY == 0) || (distanceX == 0 && distanceY == 0)) 
 				{
 					Console.SetCursorPosition(2, 1);
-					Console.WriteLine("np umarło ci sie sory");
+					Console.WriteLine("anielski orszak niech twą dusze przyjmie");
 					break;
 				}
 
